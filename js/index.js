@@ -6,7 +6,7 @@ async function apiRequest(){
         const response = await fetch(`https://amused-jay-umbrella.cyclic.app/api/${rapperName}`)
         const data = await response.json()
 
-        console.log(data + "success")
+        console.log(data)
         document.querySelector('h2').innerText = data.birthName
     }catch(error){
         console.log(error)
