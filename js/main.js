@@ -12,3 +12,5 @@ async function apiRequest(){
         console.log(error)
     }
 }
+
+console.log('hello')
